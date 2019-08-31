@@ -8,9 +8,9 @@
 
 * 常用编辑器
 
-1. Sublime Text
-2. IntelJ IDEA
-3. Android Studio
+1. [Sublime Text](https://www.sublimetext.com/)
+2. [IntelJ IDEA](https://www.jetbrains.com/idea/download/)
+3. [Android Studio](https://developer.android.com/studio/preview/index.html)
 
 * Hello Kotlin（终端版）
 
@@ -56,8 +56,8 @@
 
 1. 下载[Sublime_3.2.1_3208](https://www.lanzous.com/i5wuygh)
 2. 安装后 ``` open ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User ``` 
-3. 下载[SublimeKotlinPackage](https://www.lanzous.com/i5wusid)
-4. 将解压后的文件放到上面打开的目录
+3. 下载[SublimeKotlinPackage](https://www.lanzous.com/i5wy5wd)
+4. 将解压后的三个文件放到上面打开的目录
 5. 打开Sublime选择顶部菜单中Tools-->Build System--> Kotlin
 6. 右下角文本支持点击选择Kotlin
 7. 用Sublime打开HelloKotlin.kt，Command + B 编译
