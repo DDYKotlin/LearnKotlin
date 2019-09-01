@@ -6,6 +6,22 @@
 2. Kotlin更安全，编码阶段自动检测常见问题，如空指针引用
 3. Kotlin更完善，提供了扩展函数、默认参数、接口委托、属性代理等Java所不具备的高级特性
 
+* 配置Java环境
+
+1. 如果终端运行 ``` java -version ```能看到版本，可不往下进行
+2. 下载[jre-8u221-macosx-x64](https://www.lanzous.com/i5xao1i)，或[官网下载](https://www.java.com/en/download/mac_download.jsp)
+3. 安装后终端运行``` java -version ```能看到版本，可不往下进行
+4. 打开环境变量描述文件 open -e ~/.bash_profile
+5. 追加
+
+    ```
+    # Java 
+    export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+    export PATH=${JAVA_HOME}/bin:$PATH
+    
+    ```
+6. 使配置生效 source ~/.bash_profile
+
 * 常用编辑器
 
 1. [Sublime Text](https://www.sublimetext.com/)
